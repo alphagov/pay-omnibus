@@ -126,7 +126,7 @@ resources:
     icon: github-circle
     source:
       uri: https://github.com/alphagov/pay-omnibus
-      branch: develop
+      branch: master
 
   - name: every-10-minutes
     type: time
@@ -158,7 +158,7 @@ resources:
     icon: github-circle
     source:
       uri: https://github.com/alphagov/pay-omnibus
-      branch: develop
+      branch: master
       paths:
         - paas/carbon-relay/**
 
